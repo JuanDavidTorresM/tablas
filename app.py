@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
-
+server = app.server
 #importamos back
 from backend.calculoinundacion import consultarDepartamento, departamentos
 
