@@ -5,3 +5,5 @@ pandas
 gunicorn
 
 plotly
+
+geopandas
